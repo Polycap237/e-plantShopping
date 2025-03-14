@@ -54,7 +54,7 @@ const handleCheckoutShopping = (e) => {
     }
   };
 
-    const handleRemove = () => {
+  const handleRemove = (item) => {
     dispatch(removeItem(item.id));
   };
 
@@ -105,5 +105,3 @@ const handleCheckoutShopping = (e) => {
 };
 
 export default CartItem;
-
-
